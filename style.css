@@ -1,0 +1,147 @@
+body {
+    padding: 80px;
+    margin:20px 60px;
+    font-family: Arial, sans-serif;
+   
+    justify-content: center;    
+    background-color: hwb(192 26% 14%);
+    background-image: url(https://img.freepik.com/vector-premium/hospital-edificio-vector-icono-ilustracion-concepto-icono-edificio-punto-referencia-blanco-aislado_138676-440.jpg?w=2000);
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #ef640e;
+    color: #1d1a1a;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+}
+
+h1, h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    background-color: hwb(192 26% 14%);
+    border-color: black;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+}
+
+#container {
+    position:fixed;
+    left:50%;
+    top:90%;
+    margin-left: -200px;
+    margin-top: -150px;
+    width: 400px;    
+}
+
+.listadoa {
+    max-width: 900%;
+}
+
+.listado a{
+    text-decoration: none;
+    color: #0e036e;
+    font-size: 15px;
+}
+
+.listado li::marker {
+    content: 🐾;
+}
+
+footer {
+    background-color: white;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+}    
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    line-height: 20px;
+    padding:0 2px;
+    height: 24px;
+    border-radius:5px;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #ef640e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    line-height: 20px;
+    padding:0 2px;
+    height: 24px;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+}
+
+input[type="submit"]:hover {
+    background-color: #f2e942;
+}
+
+input[type="button"]:hover {
+    background-color: #f2e942;
+}
+
+span {
+    color: red;
+}
+
+/* Estilos CSS para las tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 5px solid #4CAF50;
+    background-color: #4CAF50;
+}
+
+td {
+    color: #fff;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.tabla-container {
+    max-width: 80%;
+}
+
+.boton-container {
+    margin-block: 30px;
+}
+
+
