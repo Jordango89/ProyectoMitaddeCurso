@@ -18,9 +18,7 @@ for (let i = 0; i < doctoresCookie.length; i++) {
     consultorio.textContent = doctor.consultorio;
     const correoContacto = fila.insertCell();
     correoContacto.textContent = doctor.correo;
-    const telefonoDoctor = fila.insertCell();
-    telefonoDoctor.textContent = doctor.telefonoDoctor;
-    
+        
     let pacientesEncontrados = pacientesCookie.filter(paciente => doctor.especialidad === paciente.especialidad);
     
     const doctorPaciente = fila.insertCell();
