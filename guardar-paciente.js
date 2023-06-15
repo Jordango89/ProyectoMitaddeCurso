@@ -15,7 +15,7 @@ formularioPaciente.addEventListener('submit', (event) => {
         window.location.href = 'pacientes.html';
     } else {
         console.log('Continuando en el formulario');
-        formularioMascota.reset()
+        formularioPaciente.reset()
     }
 });
 
